@@ -1,0 +1,93 @@
+
+body {
+	color: #666;
+	font-size: 17px;
+	font-family: 'Hiragino Sans GB';
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #666;
+}
+a:visited {
+	color:#666;
+}
+a:hover {
+	color: #2b5987;
+}
+a:active {
+	color: rgb(233, 85, 85);
+}
+
+.headtitle {
+    width: 100%;
+  
+    color: #336699;
+    text-align: center;
+    border: 1px solid #C0C0C0;
+    font-size: 70px;
+    border-radius: 20px;
+    background-color: #BFEBFF;
+    z-index: 255;
+    opacity: 1;
+}
+
+.headpic {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px 0 #000;
+	position: relative; top: 30px;
+}
+
+.channelpic {
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px 0 #000;
+	position: relative; top: 0;
+}
+
+.channelpic:active {
+	top: 5px;
+}
+
+.picdiv {
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+    top: 0;
+}
+.picdiv:active {
+		top: 5px;
+}
+.footerl {
+	width: 90%;
+	height: 50px;
+	border-top: 1px solid rgb(50, 49, 49);
+	margin: 50px auto;
+	padding-top: 10px;
+	position: relative; top: 300px;
+}
+.divcenter {
+	width: 20%;
+	text-align: center;
+	margin:0 auto;
+}
+.divleft {
+	width: 20%;
+	text-align: center;
+	position: absolute; left: 30px;
+}
+.divright {
+	width: 20%;
+	text-align: center;
+	position: absolute; right: 30px;
+}
+.channelbox {
+	width: 80%;
+	margin:0 auto;
+	position: relative; top: 70px;
+}
+.menu {
+    width: 80%;
+}
